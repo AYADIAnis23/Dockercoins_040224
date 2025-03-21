@@ -1,4 +1,4 @@
-control-plane	ansible_connection=local	ansible_host=192.168.56.10  ansible_become_pass=root 
+#control-plane	ansible_connection=local	ansible_host=192.168.56.10  ansible_become_pass=root 
 # control-plane	ansible_connection=local	ansible_host=192.168.56.10  ansible_become_pass=root 
 control-plane ansible_host=3.142.200.232  ansible_user=ubuntu  ansible_become_pass=k8s 
 [nodes]
